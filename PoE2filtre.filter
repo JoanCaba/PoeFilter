@@ -223,28 +223,28 @@ SetFontSize 40
 Show
 Sockets > 0
 Rarity Normal
-Class "Helmet" "Body Armour" "Gloves" "Boots" "Weapon"
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
 Sockets > 0
 Rarity Magic
-Class "Helmet" "Body Armour" "Gloves" "Boots" "Weapon"
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
 Sockets > 0
 Rarity Rare
-Class "Helmet" "Body Armour" "Gloves" "Boots" "Weapon"
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetBorderColor 0 0 200
 SetFontSize 35
 
 Show
 Quality > 0
 Rarity Normal
-Class "Helmet" "Body Armour" "Gloves" "Boots" "Weapon"
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
 SetBackgroundColor 155 138 138 255
@@ -253,7 +253,7 @@ SetFontSize 35
 Show
 Quality > 0
 Rarity Magic
-Class "Helmet" "Body Armour" "Gloves" "Boots" "Weapon"
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetTextColor 0 0 243 255
 SetBorderColor 0 0 243 255
 SetBackgroundColor 155 138 138 255
@@ -262,7 +262,7 @@ SetFontSize 35
 Show
 Quality > 0
 Rarity Rare
-Class "Helmet" "Body Armour" "Gloves" "Boots" "Weapon"
+Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetTextColor 255 190 0 255
 SetBorderColor 255 190 0 255
 SetBackgroundColor 155 138 138 255
