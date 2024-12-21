@@ -241,29 +241,51 @@ Class "Helmet" "Body Armour" "Gloves" "Boots"
 SetBorderColor 0 0 200
 SetFontSize 35
 
+#--------------------------
+# Salvagable Quality Items
+#--------------------------
+
+Show
+Quality > 0
+Class "Helmet" "Body Armour" "Gloves" "Boots" "Shield" "Quarterstaves"
+SetBorderColor 255 190 0 255
+SetBackgroundColor 155 138 138 255
+SetFontSize 35
+
 Show
 Quality > 0
 Rarity Normal
-Class "Helmet" "Body Armour" "Gloves" "Boots"
+Class "Helmet" "Body Armour" "Gloves" "Boots" "Shield" "Quarterstaves"
 SetTextColor 255 255 255 255
-SetBorderColor 255 255 255 255
-SetBackgroundColor 155 138 138 255
-SetFontSize 35
 
 Show
 Quality > 0
 Rarity Magic
-Class "Helmet" "Body Armour" "Gloves" "Boots"
+Class "Helmet" "Body Armour" "Gloves" "Boots" "Shield" "Quarterstaves"
 SetTextColor 0 0 243 255
-SetBorderColor 0 0 243 255
-SetBackgroundColor 155 138 138 255
-SetFontSize 35
 
 Show
 Quality > 0
 Rarity Rare
-Class "Helmet" "Body Armour" "Gloves" "Boots"
+Class "Helmet" "Body Armour" "Gloves" "Boots" "Shield" "Quarterstaves"
 SetTextColor 255 190 0 255
-SetBorderColor 255 190 0 255
-SetBackgroundColor 155 138 138 255
-SetFontSize 35
+
+Show
+Quality > 0
+Class "Flask"
+SetBackgroundColor 25 100 75 255
+
+#--------------------------
+# Want Items
+#--------------------------
+
+Show
+Class "Crossbow" "Body Armour" "Gloves" "Boots" "Helmet"
+BaseType "Expert Bombard" "Expert Rogue Armour" "Expert Riveted Mitts" "Expert Mail Sabatons" "Expert Guarded Helm"
+SetBackgroundColor 150 50 50 255
+SetBorderColor 180 180 0 255
+
+Show
+Class "Crossbow" "Body Armour" "Gloves" "Boots""Helmet"
+BaseType "Bombard" "Rogue Armour" "Riveted Mitts" "Mail Sabatons" "Guarded Helm"
+SetBackgroundColor 150 50 50 200
